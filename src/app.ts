@@ -7,7 +7,7 @@ import { server, io } from './server/server'
 import { dbGetAllMessageByService } from './model/userDao/getMessage';
 import { registerMessage } from './controller/message/messageUser';
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 8181;
 
 server.listen(port, () => {
   console.log(`Servidor aguardando requisições na porta ${port}`);
